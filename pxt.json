@@ -13,9 +13,7 @@
         "cucabot.ts",
         "tests.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "targetVersions": {
         "target": "4.0.16",
         "targetId": "microbit"
