@@ -72,6 +72,10 @@ namespace cucabot {
             buf[0] = mCommands.ML_FOR
         } else if (direction == mDirection.Reverse && motor == mMotor.Left) {
             buf[0] = mCommands.ML_REV
+        } else if (direction == mDirection.Forward && motor == mMotor.Right) {
+            buf[0] = mCommands.MR_FOR
+        } else if (direction == mDirection.Reverse && motor == mMotor.Right) {
+            buf[0] = mCommands.MR_REV
         } else if (direction == mDirection.Forward && motor == mMotor.Both) {
             buf[0] = mCommands.MOVE_FORWARD
         } else if (direction == mDirection.Reverse && motor == mMotor.Both) {
